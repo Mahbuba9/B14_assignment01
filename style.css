@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -124,7 +125,7 @@ header{
 }
 
 
-/* Speakers */
+/* Speakers section*/
 
 .speakers_parent{
     text-align: center;
@@ -171,4 +172,87 @@ header{
     font-size: 14px;
     color: #777;
     margin: 0 0 15px 20px;
+}
+
+
+/* payment section*/
+.pricing_parent{
+    text-align: center;
+    margin: 80px auto;
+}
+
+.pricing_parent h2{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.pricing_parent > p{
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.pricing_card_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.pricing_card{
+    text-align: left;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.pricing_tag{
+    color: #777;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pricing_card h3{
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.pricing_sub{
+    color: #777;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.pricing_card ul{
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.pricing_card ul li{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.pricing_card button{
+    width: 100%;
+}
+
+.outline_btn{
+    background-color: white;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #4C5FFA;
+    border: 1px solid #4C5FFA;
+    cursor: pointer;
+}
+
+.featured_card{
+    background-color: #0d0d0f;
+    color: white;
+    border: none;
+}
+
+.featured_card .pricing-tag, .featured_card .pricing-sub{
+    color: #ccc;
 }
