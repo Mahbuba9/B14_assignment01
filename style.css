@@ -256,3 +256,68 @@ header{
 .featured_card .pricing-tag, .featured_card .pricing-sub{
     color: #ccc;
 }
+
+
+/* Missing section */
+
+.hackathon-parent{
+    margin: 80px auto;
+}
+
+.hackathon_card{
+    background-color: #0c0c0e;
+    border-radius: 14px;
+    padding: 50px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.hackathon_left{
+    max-width: 420px;
+}
+
+.hackathon_tag{
+    color: #4C5FFA;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hackathon_left h2{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.hackathon_desc{
+    color: #ccc;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.hackathon_right{
+    display: flex;
+    gap: 14px;
+}
+
+.timer_box{
+    background-color: #1c1c20;
+    border-radius: 10px;
+    padding: 18px 14px;
+    text-align: center;
+    min-width: 70px;
+}
+
+.timer_box h3{
+    color: white;
+    font-size: 26px;
+}
+
+.timer_box p{
+    color: #888;
+    font-size: 11px;
+    margin-top: 4px;
+}
