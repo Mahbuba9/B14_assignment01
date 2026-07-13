@@ -326,14 +326,6 @@ header{
 
 /* Footer part */
 
-/* Footer */
-
-.footer-label{
-    font-size: 20px;
-    color: #888;
-    margin-bottom: 10px;
-}
-
 .footer_parent{
     background-color: #0d1b2a;
     padding: 25px 0;
