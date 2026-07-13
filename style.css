@@ -117,8 +117,58 @@ header{
     line-height: 1.6;
 }
 
-.hero-parent .common-btn{
+.hero_parent .common_btn{
     margin-top: 5px;
     padding: 16px 32px;
     font-size: 18px;
+}
+
+
+/* Speakers */
+
+.speakers_parent{
+    text-align: center;
+    margin: 80px auto;
+}
+
+.speakers_parent h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.speakers_card_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.speaker_card{
+    text-align: left;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.speaker_card img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.speaker_tag{
+    color: #4C5FFA;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 15px 0 5px 20px;
+}
+
+.speaker_card h3{
+    font-size: 18px;
+    margin: 0 0 5px 20px;
+}
+
+.speaker_role{
+    font-size: 14px;
+    color: #777;
+    margin: 0 0 15px 20px;
 }
