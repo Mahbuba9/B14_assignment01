@@ -321,3 +321,42 @@ header{
     font-size: 11px;
     margin-top: 4px;
 }
+
+
+
+/* Footer part */
+
+/* Footer */
+
+.footer-label{
+    font-size: 20px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.footer_parent{
+    background-color: #0d1b2a;
+    padding: 25px 0;
+}
+
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_copyright{
+    color: #8a99a8;
+    font-size: 14px;
+}
+
+.footer_links{
+    display: flex;
+    gap: 25px;
+}
+
+.footer_links a{
+    color: #8a99a8;
+    font-size: 14px;
+    text-decoration: none;
+}
